@@ -19,6 +19,7 @@ services:
         - DB_NAME=recipe
         - DB_USER=postgres
         - DB_PASS=secret
+        - DEBUG=1
     depends_on:
       - db
 
